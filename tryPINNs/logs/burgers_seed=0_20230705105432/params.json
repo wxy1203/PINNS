@@ -1,0 +1,17 @@
+{
+  "hidden_size": 20,
+  "depth": 8,
+  "seed": 0,
+  "n_i": 100,
+  "lamb_i": 1.0,
+  "n_b": 100,
+  "lamb_b": 1.0,
+  "n_f": 10000,
+  "lamb_f": 1.0,
+  "n_t": 1000,
+  "lr": 0.001,
+  "steps": 20000,
+  "steps_per_eval": 1000,
+  "device": "cpu",
+  "root_dir": "logs"
+}

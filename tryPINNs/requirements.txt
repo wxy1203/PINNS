@@ -1,0 +1,7 @@
+torch~=2.0.1
+numpy~=1.25.0
+matplotlib~=3.7.1
+scipy~=1.11.1
+structlog~=23.1.0
+tensorboardx~=2.6.1
+tqdm~=4.65.0
