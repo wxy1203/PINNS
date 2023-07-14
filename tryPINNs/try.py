@@ -26,7 +26,11 @@ class Burgers(object):
         HINT: the initial condition is u(x, t=0) = -sin(pi * x)
         """
         # begin your code
-        return torch.zeros((x.shape[0], 1))
+
+        x, t = x[:, 0][:, None], x[:, 1][:, None]
+        return -torch.sin(np.pi * x)
+    
+        # return torch.zeros((x.shape[0], 1))
         # end your code
 
     def boundary_term(self, x):
